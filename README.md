@@ -21,3 +21,6 @@ docker compose up airflow-init
 
 docker-compose up -d --pull always --force-recreate --build
 
+# Event-trigger Reference: 
+
+- trigger_dag function: https://github.com/apache/airflow/tree/main/airflow-core/src/airflow/api/common
