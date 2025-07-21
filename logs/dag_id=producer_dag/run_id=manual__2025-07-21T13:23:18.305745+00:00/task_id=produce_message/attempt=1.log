@@ -1,0 +1,8 @@
+{"timestamp":"2025-07-21T13:23:20.745706","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T13:23:20.746153","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/producer_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T13:23:20.897836","level":"info","event":"Connection Retrieved 'kafka_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-21T13:23:20.900511Z","level":"error","event":"%4|1753104200.900|CONFWARN|rdkafka#producer-1| [thrd:app]: Configuration property group.id is a consumer property and will be ignored by this producer instance","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-21T13:23:20.900891Z","level":"error","event":"%4|1753104200.900|CONFWARN|rdkafka#producer-1| [thrd:app]: Configuration property enable.auto.commit is a consumer property and will be ignored by this producer instance","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-21T13:23:20.901125Z","level":"error","event":"%4|1753104200.900|CONFWARN|rdkafka#producer-1| [thrd:app]: Configuration property auto.offset.reset is a consumer property and will be ignored by this producer instance","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-21T13:23:20.900946","level":"info","event":"Producer <cimpl.Producer object at 0xffff6f414cc0>","logger":"airflow.task.hooks.airflow.providers.apache.kafka.hooks.produce.KafkaProducerHook"}
+{"timestamp":"2025-07-21T13:23:21.012384","level":"info","event":"Produced record to topic my_topic, partition [0] @ offset 0","logger":"airflow"}
