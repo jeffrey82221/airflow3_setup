@@ -24,3 +24,10 @@ docker-compose up -d --pull always --force-recreate --build
 # Event-trigger Reference: 
 
 - trigger_dag function: https://github.com/apache/airflow/tree/main/airflow-core/src/airflow/api/common
+
+
+## How to connect to airflow UI? 
+
+localhost:8081 
+password: airflow 
+username: airflow
